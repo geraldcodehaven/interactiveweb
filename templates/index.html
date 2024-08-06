@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+    <header>
+        <h1 id="header-text">Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#career">Career Goals</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is Gerald. I am a Computer Science major with a passion for coding, gaming, swimming, and running. I enjoy watching documentaries in my free time to learn more about the world.</p>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Swimming: I love the feeling of being in the water and staying fit.</li>
+            <li>Gaming: Gaming helps me relax and challenge my problem-solving skills.</li>
+            <li>Coding: Coding is both a hobby and a career interest for me. I enjoy creating software and solving complex problems.</li>
+            <li>Watching Documentaries: I find documentaries fascinating as they provide insights into various subjects.</li>
+            <li>Running: Running helps me stay active and clear my mind.</li>
+        </ul>
+    </section>
+
+    <section id="career">
+        <h2>Career Goals</h2>
+        <p>I chose Computer Science because of my strong interest in coding and technology. I see a lot of potential in this field and believe that it aligns with my hobbies and passion. My goal is to develop innovative software solutions and contribute to the tech industry.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you would like to get in touch, please email me at gerald.codinghaven@gmail.com.</p>
+    </section>
+
+    <footer>
+        <p id="footer-text">© 2024 Gerald. All rights reserved.</p>
+        <button id="delete-btn">Delete Text</button>
+        <button id="change-btn">Change Text</button>
+    </footer>
+</body>
+</html>
